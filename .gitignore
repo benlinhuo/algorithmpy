@@ -1,0 +1,12 @@
+/.svn/*
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
+xcuserdata
+xcshareddata
+ZAInsurance/.idea
+/Pods
+.DS_Store
+/library_rn/node_module
+*/venv
