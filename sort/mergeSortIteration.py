@@ -14,29 +14,33 @@ https://www.cnblogs.com/skywang12345/p/3602369.html
 
 import math;
 
-# 将2个已有序的子序列，合并成一个大的有序序列。需要利用一个和合并后一样大小空间的temp
-# leftArr 和 rightArr 必须是有序的才可以
-def mergeTwoOrderedArr(leftArr, rightArr):
+# 将2个已有序的子序列，合并成一个大的有序序列。
+# [leftStartIndex, leftEndIndex] 不包括leftEndIndex 与 [leftEndIndex, rightEndIndex] 不包括 rightEndIndex
+def mergeTwoOrderedArr(arr, leftStartIndex, leftEndIndex, rightEndIndex):
     temp = [];
-    i = 0;
-    j = 0;
+    i = leftStartIndex;
+    j = leftEndIndex;
+
 
     # 两个独立数组，各自有对应游标，进行比较。则把2个比较条件用and作为总的比较条件
-    while i < len(leftArr) and j < len(rightArr):
-        if leftArr[i] >= rightArr[j]:
-            temp.append(rightArr[j])
+    while i < leftEndIndex and j < rightEndIndex:
+        if arr[i] >= arr[j]:
+            temp.append(arr[j])
             j += 1;
         else:
-            temp.append(leftArr[i]);
+            temp.append(arr[i]);
             i += 1;
     # 游标j到达末尾
-    for ii in range(i, len(leftArr)):
-        temp.append(leftArr[ii]);
+    for ii in range(i, leftEndIndex):
+        temp.append(arr[ii]);
     # 游标i到达末尾
-    for jj in range(j, len(rightArr)):
-        temp.append(rightArr[jj]);
+    for jj in range(j, rightEndIndex):
+        temp.append(arr[jj]);
 
-    return temp;
+    for idx in range(0, len(temp)):
+        arr[leftStartIndex + idx] = temp[idx];
+
+    return arr;
 
 
 # https://blog.csdn.net/jacketinsysu/article/details/52472364
@@ -44,16 +48,14 @@ def mergeTwoOrderedArr(leftArr, rightArr):
 def mergeSort(arr):
     if len(arr) == 0 or len(arr) == 1:
         return arr;
-    # 步长是：2，4，8...
-    # 构造步长
-    steps = [];
-    step = 2;
-    while step < len(arr):
-        steps.append(step);
-        step *= 2;
-    for i in range(0, len(steps)):
-        s = steps[i];
-        for j in range(0, math.ceil(len(arr)))
+    # 步长是：1，2，4，8...
+    step = 1;
+    while step < (len(arr) + 1):
+        offset = step * 2;
+        for i in range(0, len(arr), offset):
+            arr = mergeTwoOrderedArr(arr, i, min(i + step, len(arr)), min(i + offset, len(arr)))
+        step = offset;
+    return arr;
 
 
 
@@ -62,8 +64,12 @@ arr2 = [110,100,90,40,80,20,60,10,30,50,70];
 retSort2 = mergeSort(arr2);
 print(retSort2)
 
-arr = [1, 5, 8, 10, 2, 4, 8, 0];
-# arr = [1, 5, 8, 10, 2];
+# 多类进行测试
+arr = [8, 1, 5, 10, 2, 4, 8, 0];
+arr = [8, 1, 5, 10, 2, 4, 9];
+arr = [8, 1, 5, 10, 2, 4];
+arr = [8, 1, 5, 10, 2];
+arr = [8, 1, 5, 10];
 retSort = mergeSort(arr);
 print(retSort)
 
