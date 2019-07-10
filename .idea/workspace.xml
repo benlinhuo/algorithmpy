@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5106f7a1-ecf1-42ab-a595-d91db482c3a7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/Array/Simple/question_53.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/Array/Simple/question_66.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/leetcode/Array/Simple/question_88.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/leetcode/Array/question_1.py" afterPath="$PROJECT_DIR$/leetcode/Array/Simple/question_1.py" />
-      <change beforePath="$PROJECT_DIR$/leetcode/Array/question_26.py" afterPath="$PROJECT_DIR$/leetcode/Array/Simple/question_26.py" />
-      <change beforePath="$PROJECT_DIR$/leetcode/Array/question_27.py" afterPath="$PROJECT_DIR$/leetcode/Array/Simple/question_27.py" />
-      <change beforePath="$PROJECT_DIR$/leetcode/Array/question_35.py" afterPath="$PROJECT_DIR$/leetcode/Array/Simple/question_35.py" />
+      <change beforePath="$PROJECT_DIR$/leetcode/Array/Simple/question_66.py" afterPath="$PROJECT_DIR$/leetcode/Array/Simple/question_66.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,62 +21,24 @@
     <SUITE FILE_PATH="coverage/algorithmpy$insertionSort.coverage" NAME="insertionSort Coverage Results" MODIFIED="1543926950415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/algorithmpy$commonDivisor.coverage" NAME="commonDivisor Coverage Results" MODIFIED="1548572437676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/other" />
     <SUITE FILE_PATH="coverage/algorithmpy$basicUsage.coverage" NAME="basicUsage Coverage Results" MODIFIED="1558075599998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pythonUsage" />
+    <SUITE FILE_PATH="coverage/algorithmpy$question_66.coverage" NAME="question_66 Coverage Results" MODIFIED="1562728981600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/Array/Simple" />
     <SUITE FILE_PATH="coverage/algorithmpy$bisectionMethod.coverage" NAME="bisectionMethod Coverage Results" MODIFIED="1543927434332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seek" />
     <SUITE FILE_PATH="coverage/algorithmpy$quickSort.coverage" NAME="quickSort Coverage Results" MODIFIED="1544083827630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/algorithmpy$bisectionInsertionSort.coverage" NAME="bisectionInsertionSort Coverage Results" MODIFIED="1543982270186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/algorithmpy$question_27.coverage" NAME="question_27 Coverage Results" MODIFIED="1558083390981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/Array" />
     <SUITE FILE_PATH="coverage/algorithmpy$mergeSortIteration.coverage" NAME="mergeSortIteration Coverage Results" MODIFIED="1544774944870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
+    <SUITE FILE_PATH="coverage/algorithmpy$question_88.coverage" NAME="question_88 Coverage Results" MODIFIED="1562735039990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/Array/Simple" />
     <SUITE FILE_PATH="coverage/algorithmpy$shellSort.coverage" NAME="shellSort Coverage Results" MODIFIED="1544774979869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/algorithmpy$bubble.coverage" NAME="bubble Coverage Results" MODIFIED="1544077762421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sort" />
     <SUITE FILE_PATH="coverage/algorithmpy$question_1.coverage" NAME="question_1 Coverage Results" MODIFIED="1558078675764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/Array" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bisectionInsertionSort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort/bisectionInsertionSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="shellSort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort/shellSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="92">
               <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basicUsage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonUsage/basicUsage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="question_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/Array/Simple/question_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="question_26.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/Array/Simple/question_26.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -89,8 +47,8 @@
       <file leaf-file-name="question_35.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/Array/Simple/question_35.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,18 +57,28 @@
       <file leaf-file-name="question_53.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/Array/Simple/question_53.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="246">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question_66.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="question_66.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/Array/Simple/question_66.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question_88.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/Array/Simple/question_88.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -154,6 +122,8 @@
         <option value="$PROJECT_DIR$/leetcode/Array/question_35.py" />
         <option value="$PROJECT_DIR$/leetcode/Array/question_53.py" />
         <option value="$PROJECT_DIR$/leetcode/Array/question_66.py" />
+        <option value="$PROJECT_DIR$/leetcode/Array/Simple/question_66.py" />
+        <option value="$PROJECT_DIR$/leetcode/Array/Simple/question_88.py" />
       </list>
     </option>
   </component>
@@ -164,10 +134,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
-    <option name="y" value="94" />
-    <option name="width" value="1309" />
-    <option name="height" value="877" />
+    <option name="x" value="306" />
+    <option name="y" value="23" />
+    <option name="width" value="1117" />
+    <option name="height" value="853" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -252,45 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.question_35">
-    <configuration name="basicUsage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonUsage" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="algorithmpy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonUsage/basicUsage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="question_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/Array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="algorithmpy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/Array/Simple/question_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.question_88">
     <configuration name="question_26" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,20 +280,58 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="question_66" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/Array/Simple" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="algorithmpy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/Array/Simple/question_66.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="question_88" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/Array/Simple" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="algorithmpy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/Array/Simple/question_88.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.question_1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.basicUsage" />
-      <item index="2" class="java.lang.String" itemvalue="Python.question_26" />
-      <item index="3" class="java.lang.String" itemvalue="Python.question_27" />
-      <item index="4" class="java.lang.String" itemvalue="Python.question_35" />
+      <item index="0" class="java.lang.String" itemvalue="Python.question_26" />
+      <item index="1" class="java.lang.String" itemvalue="Python.question_27" />
+      <item index="2" class="java.lang.String" itemvalue="Python.question_35" />
+      <item index="3" class="java.lang.String" itemvalue="Python.question_66" />
+      <item index="4" class="java.lang.String" itemvalue="Python.question_88" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.question_35" />
-        <item index="1" class="java.lang.String" itemvalue="Python.question_27" />
-        <item index="2" class="java.lang.String" itemvalue="Python.question_26" />
-        <item index="3" class="java.lang.String" itemvalue="Python.question_1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.basicUsage" />
+        <item index="0" class="java.lang.String" itemvalue="Python.question_88" />
+        <item index="1" class="java.lang.String" itemvalue="Python.question_66" />
+        <item index="2" class="java.lang.String" itemvalue="Python.question_35" />
+        <item index="3" class="java.lang.String" itemvalue="Python.question_27" />
+        <item index="4" class="java.lang.String" itemvalue="Python.question_26" />
       </list>
     </recent_temporary>
   </component>
@@ -382,22 +352,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="94" width="1309" height="877" extended-state="0" />
+    <frame x="306" y="23" width="1117" height="853" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28322983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3047375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1657754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22023277" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34658384" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3790013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -422,18 +392,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sort/mergeSortRecursion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort/mergeSortIteration.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -672,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort/bubble.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -729,14 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort/shellSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pythonUsage/basicUsage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -769,26 +717,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="320" column="19" lean-forward="true" selection-start-line="320" selection-start-column="19" selection-end-line="320" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/shellSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/Array/Simple/question_53.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="246">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/Array/Simple/question_35.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/Array/Simple/question_66.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Array/Simple/question_88.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
           <folding />
         </state>
       </provider>
